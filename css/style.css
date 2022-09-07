@@ -18,7 +18,8 @@
   --Adress-Bottom: rgba(255, 255, 255, 0.6);
 }
 body {
-  margin: auto;
+  margin: 0 auto;
+  max-width: 1600px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
