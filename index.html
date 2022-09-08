@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
   <head>
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,30 +34,33 @@
               <a href="#" class="link"> Agencja </a>
             </li>
             <li class="portf-item">
-              <a href="./portfolio.html" class="link ">Portfolio</a>
+              <a href="./portfolio.html" class="link">Portfolio</a>
             </li>
             <li class="portf-item">
               <a href="#" class="link">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <div class="contact-item">
-          <a href="maito:info@devstudio.com" class="mail-tel-item"
-            >info@devstudio.com</a
-          >
-        </div>
-        <div class="tel-item">
-          <a href="tel:+48111111111" class="mail-tel-item">+48 111 111 111</a>
-        </div>
+        <ul class="contact-item">
+          <li>
+            <a href="maito:info@devstudio.com" class="mail-tel-item"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="tel-item">
+            <a href="tel:+48111111111" class="mail-tel-item">+48 111 111 111</a>
+          </li>
+        </ul>
       </section>
     </header>
     <main>
       <section class="bisnes-item">
         <h1 class="text-item">
-          <!-- <img src="./images/img.png" alt="Zespół" class="image"> -->
           EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
         </h1>
-        <button class="btn-services">Zamów usługe</button>
+        <div class="button">
+          <button class="btn-services">Zamów usługe</button>
+        </div>
       </section>
       <section class="lore-ipsum">
         <ul class="lorem-set">
