@@ -19,7 +19,6 @@
 }
 body {
   margin: 0;
-  /* max-width: 1600px; */
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -61,7 +60,8 @@ ul {
 a {
   text-decoration: none;
 }
-a [href] {
+a [href],
+.btn {
   cursor: pointer;
 }
 h1 {
@@ -96,7 +96,6 @@ h3 {
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
-  /* padding-left: 50px; */
 }
 .mail-item:hover,
 .mail-item:focus {
@@ -146,7 +145,6 @@ h3 {
   color: var(--Light-Black);
   margin: 0px;
   padding-top: 94px;
-  /* padding-left: 695px; */
   justify-content: center;
 }
 .btn-services {
@@ -161,6 +159,9 @@ h3 {
 .main-txt-body {
   font-size: 14px;
   color: var(--Grey);
+  width: 270px;
+  height: 75px;
+  padding-right: 30px;
 }
 .box {
   background-color: var(--Withe);
@@ -257,40 +258,42 @@ h3 {
   height: 80px;
   display: flex;
   justify-content: center;
+  justify-items: center;
 }
 .logo-nav {
   display: flex;
-  width: 863px;
+  max-width: 1200px;
 }
 .link-item {
   display: flex;
-  padding: 32px 371px 0px 44px;
+  width: 558px;
   margin: 0px;
+  padding-top: 32px;
 }
 .contact-item {
   margin: 0px;
   padding: 32px 0px 0px 0px;
   display: flex;
-  width: 295px;
+  max-width: 295px;
 }
 .portf-item {
-  padding-left: 46px;
+  justify-content: left;
 }
 .tel-item {
-  padding-left: 50px;
+  justify-content: right;
 }
 /* Lore Ipsum */
 .proper-text {
   padding-top: 600px;
   display: flex;
   justify-content: center;
+  margin: 0px;
 }
 .proper-text-set {
   display: flex;
-  padding: 94px 215px;
-  width: 1600px;
+  padding: 94px 0px;
   justify-content: center;
-  padding-top: 94px;
+  margin: 0px;
 }
 .proper-text-item {
   justify-content: center;
@@ -310,7 +313,6 @@ h3 {
 }
 .img-set {
   padding-top: 50px;
-  /* padding-left: 215px; */
   display: flex;
   justify-content: center;
 }
@@ -332,7 +334,6 @@ h3 {
   box-shadow: 0px 1px 3px var(--Shadow-RB-1), 0px 1px 1px var(--Shadow-RB-2),
     0px 2px 1px var(--Shadow-RB-3);
   border-radius: 0px 0px 4px 4px;
-  /* padding-top: 50px; */
   justify-content: center;
 }
 /* portfolio-buttons */
