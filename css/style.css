@@ -274,7 +274,7 @@ h3 {
   margin: 0px;
   padding: 32px 0px 0px 0px;
   display: flex;
-  max-width: 295px;
+  width: 295px;
 }
 .portf-item {
   justify-content: left;
