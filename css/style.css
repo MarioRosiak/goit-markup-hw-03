@@ -288,7 +288,7 @@ h3 {
 .proper-text-set {
   width: 1200px;
   display: flex;
-  padding-top: 94px;
+  padding-top: 94px 0px 0px 0px;
   justify-content: center;
   margin: 0px;
 }
